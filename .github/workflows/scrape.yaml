@@ -4,7 +4,8 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: "0 20 * * *"  # 📅 Scrape once a day at 8PM, see crontab.guru for help
+    - cron: "0 8 * * *"   # 📅 Scrape every day at 8 AM 
+    - cron: "0 20 * * *"  # 📅 Scrape every day at 8 PM 
 
 name: Scrape Update 🔄
 jobs:
