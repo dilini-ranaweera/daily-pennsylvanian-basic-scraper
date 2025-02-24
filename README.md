@@ -10,6 +10,9 @@ Tools like GitHub Actions, GitLab CI and others make git scraping adaptable to d
 
 This template includes a sample workflow to demonstrate the core git scraping capabilities. Read on to learn how to customize it!
 
+## Customized Version
+I updated this scraper to scrape the hidden headlines instead of the main ones. the class name is : frontpage-link small-link
+
 ## Overview
 
 The workflow defined in `.github/workflows/scrape.yaml` runs on a defined schedule to:
